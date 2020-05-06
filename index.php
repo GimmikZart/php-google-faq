@@ -67,18 +67,11 @@
 
     <!-- MAIN -->
     <main>
-      <?php
-        foreach ($faq as $domande) {
-          echo "<h1 class:'titolo'>" . $domande["titolo"] . "</div>" ;
-          echo "<p class:'paragrafo'>" . $domande["paragrafo"] . "</p>" ;
-        }
+      <?php foreach ($faq as  $domande) { ?>
+        <h1 class="titolo"><?php echo $domande["titolo"]; ?></div>
+        <p class="paragrafo"><?php echo $domande["paragrafo"]; ?></p>
+      <?php } ?>
 
-
-
-
-
-
-       ?>
 
     </main>
 
