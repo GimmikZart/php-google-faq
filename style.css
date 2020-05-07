@@ -69,6 +69,18 @@ main {
   margin: 0 auto;
 }
 
+#numeroFaq {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 30px;
+  background-color: yellow;
+  border-radius: 50%;
+  text-align: center;
+  margin: -10px 0;
+  border: 2px solid black;
+}
+
 h1 {
   color: #3c4043;
   font-size: 21px;
